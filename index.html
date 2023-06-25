@@ -1,0 +1,60 @@
+<html>
+
+<head>
+  <title>Real Time Image Identification App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <center>
+    <h1><kbd>Rishik's Pool Services</kbd></h1>
+    <hr>
+    <br>
+    <h2 id="Algae">Chlorine Moderation</h2>
+    <div>
+      <p>How Big is Your pool?</p>
+      <br>
+      <input type="number" id="algae_size">
+      <br>
+      <div>
+        <button class="btn btn-success"> chlorine to high</button>
+        <button class="btn btn-danger">chlorine to low</button>
+      </div>
+      <br>
+      
+      <button onclick="AlgaePrice()">Check Your Cost</button>
+        
+      <br>
+      <br>
+      <label id="AlgaeFinal">Your Price is:</label>
+      <hr>
+      <br>
+      type in your address:
+      <input type="text">
+      <br>
+      <br>
+      <a href="https://www.canva.com/design/DAFm2I7Gqug/Evhw3pPA7LmT1xf4fpWFxA/edit?utm_content=DAFm2I7Gqug&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+      <button onclick="Book()">Book Now</button>
+      </a>
+      
+    </div>
+
+  </center>
+
+  <div class="copy_right_footer">
+    Developed by - Rishik Sharma
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
